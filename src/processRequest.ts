@@ -313,9 +313,11 @@ export async function processRequest<T = any>(
           if (error) throw error;
 
           if (returnedStreams.has(stream)) {
-            throw new Error(
-              "graphql-upload-ts does not allow calling createReadStream() multiple times. Please, consume the previously returned stream. Make sure you're not referencing same file twice in your query."
-            );
+            console.warn('graphql-upload-ts does not allow calling createReadStream() multiple times. Please, consume the previously returned stream. Make sure you're not referencing same file twice in your query.');
+            return returnedStreams.get(stream);
+            // throw new Error(
+            //   "graphql-upload-ts does not allow calling createReadStream() multiple times. Please, consume the previously returned stream. Make sure you're not referencing same file twice in your query."
+            // );
           } else {
             returnedStreams.add(stream);
             return stream;
