@@ -1,5 +1,5 @@
 {
-  "name": "graphql-upload-ts",
+  "name": "@manifico/graphql-upload-ts-fixed",
   "version": "2.0.6",
   "description": "Typescript minimalistic and developer friendly middleware and an Upload scalar to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers.",
   "keywords": [
@@ -16,23 +16,23 @@
     "esm",
     "mjs"
   ],
-  "homepage": "https://github.com/meabed/graphql-upload-ts#readme",
-  "bugs": "https://github.com/meabed/graphql-upload-ts/issues",
+  "homepage": "https://github.com/hermandinho/graphql-upload-ts-fixed#readme",
+  "bugs": "https://github.com/hermandinho/graphql-upload-ts-fixed/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meabed/graphql-upload-ts"
+    "url": "https://github.com/hermandinho/graphql-upload-ts-fixed"
   },
   "license": "MIT",
   "author": {
-    "name": "Mohamed Meabed",
-    "email": "mo@meabed.com",
-    "url": "https://meabed.com"
+      "name": "Herman Demsong",
+      "email": "hdemsongtsamo@gmail.com",
+      "url": "https://www.linkedin.com/in/herman-demsong-945555a6"
   },
   "maintainers": [
     {
-      "name": "Mohamed Meabed",
-      "email": "mo@meabed.com",
-      "url": "https://meabed.com"
+      "name": "Herman Demsong",
+      "email": "hdemsongtsamo@gmail.com",
+      "url": "https://www.linkedin.com/in/herman-demsong-945555a6"
     }
   ],
   "main": "dist/index.js",
